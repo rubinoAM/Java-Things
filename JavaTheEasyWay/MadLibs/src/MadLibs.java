@@ -80,7 +80,7 @@ public class MadLibs {
 
                 //Story Time
                 System.out.println("We've got everything we need. It's time for the show!");
-                System.out.println("Press enter to begin.");
+                System.out.println("[Press enter to begin.]");
                 try{
                     System.in.read();
                 } catch(Exception e){
@@ -88,7 +88,7 @@ public class MadLibs {
                 }
 
                 System.out.println("GENERIC COMIC SUPERHERO MOVIE");
-                System.out.println("Press enter again to continue.");
+                System.out.println("[Press enter again to continue after each new line.]");
                 try{
                     System.in.read();
                 } catch(Exception e){
@@ -96,12 +96,53 @@ public class MadLibs {
                 }
 
                 System.out.println("Meet our hero " + sillyName + ", a super-intelligent " + unrealisticProfession + ".");
+                try{
+                    System.in.read();
+                } catch(Exception e){
+                    e.printStackTrace();
+                }
+
                 System.out.println("A run-in with the " + country + " military leads him to create his alter-ego " + sillyNameTwo + ", a " + color + " " + adjective + " giant capable of great destruction.");
-                System.out.println("He " + adverb + " battles the military with his girlfriend " + sillyNameThree + ".'");
+                try{
+                    System.in.read();
+                } catch(Exception e){
+                    e.printStackTrace();
+                }
+
+                System.out.println("He " + adverb + " battles the military with his girlfriend " + sillyNameThree + ".");
+                try{
+                    System.in.read();
+                } catch(Exception e){
+                    e.printStackTrace();
+                }
+
                 System.out.println("Eventually it is discovered that our hero's long-time colleague " + sillyNameFour + ", distinguished by his " + facialFeature + ", is trying to turn " + sillyNameTwo + " into a weapon, leading to a climactic (albeit pointless) battle in downtown " + usCity + " with an evil version of the same giant alter-ego called " + sillyNameFive + ".");
+                try{
+                    System.in.read();
+                } catch(Exception e){
+                    e.printStackTrace();
+                }
+
                 System.out.println("Eventually the enemy is subdued by " + verb + "ing him with a " + noun + ".");
+                try{
+                    System.in.read();
+                } catch(Exception e){
+                    e.printStackTrace();
+                }
+
                 System.out.println("In the final reel, " + formerGreatActor + " appears to propose joining him in a " + nounTwo + ".");
+                try{
+                    System.in.read();
+                } catch(Exception e){
+                    e.printStackTrace();
+                }
+
                 System.out.println("THE END");
+                try{
+                    System.in.read();
+                } catch(Exception e){
+                    e.printStackTrace();
+                }
                 playing = false;
             }
             System.out.println("Would you like to play again (y/n)?");
