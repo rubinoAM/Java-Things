@@ -77,6 +77,22 @@ public class MadLibs {
 
             //Story Time
             System.out.println("We've got everything we need. It's time for the show!");
+            System.out.println("Press enter to begin.");
+            try{
+                System.in.read();
+            } catch(Exception e){
+                e.printStackTrace();
+            }
+
+            System.out.println("Meet our hero " + sillyName + ", a super-intelligent " + unrealisticProfession + ".");
+            System.out.println("A run-in with the " + country + " military leads him to create his alter-ego " + sillyNameTwo + ", a " + color + " " + adjective + " giant capable of great destruction.");
+            System.out.println();
+            System.out.println();
+            System.out.println();
+            System.out.println("In the final reel, " + formerGreatActor + " appears to propose joining him in a " + noun + ".");
+            System.out.println("THE END");
+
+
         } while (playAgain.equalsIgnoreCase("y"));
         System.out.println("Thanks for playing! Catch ya later!");
         scan.close();
