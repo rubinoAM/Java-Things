@@ -32,5 +32,8 @@ public class HiLo {
             System.out.println("Would you like to play again (y/n)?");
             playAgain = scan.next();
         } while (playAgain.equalsIgnoreCase("y"));
+        //End Game Comment
+        System.out.println("Thanks for playing! Have a good one!");
+        scan.close();
     }
 }
